@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <title>Blog Site</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="blog.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-12 text-center">
+          <button class="blog-header-logo text-light bg-dark btn" onclick="myFunction()">BLOG</button>
+        </div>
+        <div class="">
+          <!-- <button class=" btn bg-primary text-center" style="width: 130px;"  onclick="myFunction()">Change Mode</button> -->
+        </div>
+
+      </div>
+  </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2 container-fluid">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+          fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg></a>
+      <a class="p-2 text-muted" href="#">Home</a>
+      <a class="p-2 text-muted" href="#">Technology</a>
+      <a class="p-2 text-muted" href="#">Business</a>
+      <a class="p-2 text-muted" href="#">Politics</a>
+      <a class="p-2 text-muted" href="#">Science</a>
+      <a class="p-2 text-muted" href="#">Style</a>
+      <a class="p-2 text-muted" href="#">Travel</a>
+      <a class="p-2 text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+          fill="currentColor" class="bi bi-search" viewBox="0 0 30 20">
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+        </svg></a>
+      <a class="p-2 text-muted" href="#">Login</a>
+    </nav>
+  </div>
+  <br>
+  <div class="container">
+    <h6>Title of a longer featured blog post</h6>
+    <h2>Title of a longer featured blog post</h2>
+    <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about
+      what’s most interesting in this post’s contents.</p>
+  </div>
+  <div class="container">
+    <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+      class="img-fluid" alt="Responsive image">
+  </div>
+  <!-- <div class="row"> -->
+
+  <!-- <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Design</strong>
+          <h3 class="mb-0">Post title</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- </div> -->
+
+  <main role="main" class="container-fluid">
+    <div class="row">
+
+      <div class="col-md-8 blog-main">
+
+        <div class="blog-post">
+          <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic
+            typography, images, and code are all supported.</p>
+          <hr>
+          <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus.
+            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est
+            at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+          <blockquote>
+            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu
+              leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </blockquote>
+          <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum.
+            Aenean lacinia bibendum nulla sed consectetur.</p>
+          <h2>Heading</h2>
+          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus,
+            nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac,
+            vestibulum at eros.</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d94YfKa5gFE?rel=0"
+              allowfullscreen></iframe>
+          </div>
+          <h3>Sub-heading</h3>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
+            bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac
+            cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <ul>
+            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+            <li>Donec id elit non mi porta gravida at eget metus.</li>
+            <li>Nulla vitae elit libero, a pharetra augue.</li>
+          </ul>
+          <div>
+            <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+              <div class="col-auto d-none d-lg-block">
+                <img class="img-responsive" src="http://placehold.it/150x150" alt="header image" />
+
+                <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+              </div> 
+             
+              <div class="col p-1 d-flex flex-column position-static">
+                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7 blog-main">
+              <div class="box flex-md-row">
+                <!-- <img class="img-responsive" src="http://placehold.it/500x300" alt="header image" /> -->
+                  <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+                    class="img-fluid img-responsive " alt="Responsive image">
+                <div class="img-title-2">
+                  <h4>Ham consequat jowl tenderloin commodo dolor</h4>
+                </div>
+              </div>
+              <div class="box flex-md-row">
+                <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+                class="img-fluid img-responsive" alt="Responsive image">
+                <div class="img-title-2">
+                  <h4>Ham consequat jowl tenderloin commodo dolor</h4>
+                </div>
+              </div>
+            </div>
+          
+          <aside class="col-md-4 blog-sidebar">
+            <div class="box flex-md-row">
+              <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+              class="img-fluid img-responsive" alt="Responsive image">
+              <div class="img-title-2">
+                <h4>Ham consequat jowl tenderloin commodo dolor</h4>
+              </div>
+            </div>
+            <div class="box flex-md-row">
+              <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+                    class="img-fluid img-responsive" alt="Responsive image">
+              <div class="img-title-2">
+                <h4>Ham consequat jowl tenderloin commodo dolor</h4>
+              </div>
+            </div>
+            <div class="box flex-md-row">
+              <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+                    class="img-fluid img-responsive" alt="Responsive image">
+              <div class="img-title-2">
+                <h4>Ham consequat jowl tenderloin commodo dolor</h4>
+              </div>
+            </div>
+            <div class="box flex-md-row">
+              <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+                    class="img-fluid img-responsive" alt="Responsive image">
+              <div class="img-title-2">
+                <h4>Ham consequat jowl tenderloin commodo dolor</h4>
+              </div>
+            </div>
+          </aside>
+        </div>
+        </div><!-- /.blog-post -->
+
+
+      </div><!-- /.blog-main -->
+
+      <aside class="col-md-4 blog-sidebar">
+        <div class="box">
+          <!-- <img class="img-responsive" src="http://placehold.it/460x300" alt="header image" /> -->
+          <img src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+                    class="img-fluid img-responsive" alt="Responsive image">
+          <div class="img-title">
+            <h4 class="">Ham consequat jowl tenderloin commodo dolor</h4>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/200x200" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-2 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/200x200" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-2 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/200x200" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-2 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d94YfKa5gFE?rel=0"
+            allowfullscreen></iframe>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/200x200" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-2 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/200x200" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-2 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/200x200" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-2 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/150x150" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-1 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/150x150" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-1 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/150x150" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-1 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row no-gutters  overflow-hidden flex-md-row mb-4   position-relative">
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-responsive" src="http://placehold.it/150x150" alt="header image" />
+
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            </div>
+            <div class="col p-1 d-flex flex-column position-static">
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </aside><!-- /.blog-sidebar -->
+
+    </div><!-- /.row -->
+
+  </main><!-- /.container -->
+
+  <footer class="blog-footer">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged.</p>
+
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+
+</html>
